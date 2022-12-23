@@ -5,19 +5,19 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(to bottom, rgb(231, 157, 238),rgb(135, 233, 126));
+  background-color: aliceblue;
 }
 
 header {
   text-align: center;
   width: 80vw;
   margin: 2rem auto;
-  padding: 2rem ;
- }
+  padding: 2rem;
+}
 
 .inputForm {
   width: 80vh;
@@ -55,14 +55,13 @@ header {
   opacity: 0.5;
 }
 
-
 .icons .fa-check {
-  padding: 0.487rem .5rem;
+  padding: 0.487rem 0.5rem;
   background: rgb(83, 164, 195);
 }
 
 .icons .fa-trash {
-  padding: 0.487rem .5rem;
+  padding: 0.487rem 0.5rem;
   background: rgb(197, 70, 81);
 }
 
@@ -72,7 +71,6 @@ header {
   padding: 0.3rem 4rem;
   background: white;
 }
-
 
 button {
   border: none;
